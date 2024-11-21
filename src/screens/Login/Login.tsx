@@ -1,11 +1,11 @@
 import { View, Text } from "react-native";
 import React from "react";
-import LoginTemplate from "../components/templates/LoginTemplate";
+import FormLogin from "./components/FormLogin";
 
 const Login = () => {
   return (
     <>
-      <LoginTemplate />
+      <FormLogin />
     </>
   );
 };

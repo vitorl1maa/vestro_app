@@ -1,14 +1,14 @@
 import React from "react";
 import { View } from "react-native";
-import { ButtonDefault, TextButton } from "./styled";
+import { ButtonField, TextButton } from "./styled";
 import { ButtonPropsDefault } from "./types";
 
-const Button: React.FC<ButtonPropsDefault> = ({ text, width }) => {
+const Button = ({ text, width }: ButtonPropsDefault) => {
   return (
     <View>
-      <ButtonDefault width={width}>
+      <ButtonField width={width}>
         <TextButton>{text}</TextButton>
-      </ButtonDefault>
+      </ButtonField>
     </View>
   );
 };

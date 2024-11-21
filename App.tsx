@@ -26,7 +26,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <View style={styles.container}>
-        <StatusBar style="auto" />
+        <StatusBar style="inverted" translucent />
         <Login />
       </View>
     </ThemeProvider>

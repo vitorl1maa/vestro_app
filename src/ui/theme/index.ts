@@ -3,6 +3,8 @@ const theme = {
     primary: "#111111",
     secondary: "#ffff",
     pistache: "#c0e863",
+    gray: "#303030",
+    softGray: "#686868"
   },
   fonts: {
     light: "OpenSans_300Light",

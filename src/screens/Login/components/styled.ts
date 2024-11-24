@@ -7,6 +7,7 @@ export const Container = styled.View`
   gap: 20px;
   padding: ${responsiveness(2)}px;
   background-color: ${theme.colors.primary};
+  
 `;
 
 export const ForgotPassword = styled.Text`

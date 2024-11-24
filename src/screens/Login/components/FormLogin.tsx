@@ -17,9 +17,16 @@ import {
   TextDetail,
   TextRegister,
 } from "./styled";
+import { NavigationProp, useNavigation } from "@react-navigation/native";
+import { LoginScreenNavigationProp } from "../../../@types/routes";
 
 const FormLogin = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const navigation = useNavigation<LoginScreenNavigationProp>();
+
+  const handleLogin = () => {
+    navigation.replace("Home");
+  };
 
   return (
     <Container>
@@ -46,7 +53,7 @@ const FormLogin = () => {
         </TouchableOpacity>
       </View>
 
-      <Button text="Login" />
+      <Button onPress={handleLogin} text="Login" />
 
       <DetailsForm>
         <LineDetail />

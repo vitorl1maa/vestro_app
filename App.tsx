@@ -10,6 +10,7 @@ import {
   OpenSans_600SemiBold,
   OpenSans_800ExtraBold,
 } from "@expo-google-fonts/open-sans";
+import AppNavigator from "./src/routes";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -25,12 +26,14 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <View style={styles.container}>
-        <SafeAreaView>
+      <AppNavigator />
+
+      {/* <SafeAreaView>
+        <View style={styles.container}>
           <StatusBar style="inverted" translucent />
           <Login />
-        </SafeAreaView>
-      </View>
+        </View>
+      </SafeAreaView> */}
     </ThemeProvider>
   );
 }

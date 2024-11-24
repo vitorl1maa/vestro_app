@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Button from "../../../ui/Button/Button";
-import Input from "../../../ui/Input/Input";
+import Button from "../../../components/Button/Button";
+import Input from "../../../components/Input/Input";
 import { Container } from "./styled";
 import { AtSign, Eye, EyeOff } from "lucide-react-native";
-import theme from "../../../ui/theme";
+import theme from "../../../theme";
 
 const FormLogin = () => {
   const [showPassword, setShowPassword] = useState(false);

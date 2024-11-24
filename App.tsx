@@ -2,7 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View } from "react-native";
 import Login from "./src/screens/Login/Login";
 import { ThemeProvider } from "styled-components/native";
-import theme from "./src/ui/theme";
+import theme from "./src/theme";
 import {
   useFonts,
   OpenSans_300Light,

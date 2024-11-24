@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { InputField, IconWrapper, InputContainer } from "./styled";
-import theme from "../theme";
+import theme from "../../theme";
 import { InputPropsDefault } from "./types";
 import { TouchableOpacity } from "react-native";
 

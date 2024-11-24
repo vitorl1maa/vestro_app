@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
+import { SafeAreaView, StyleSheet, View } from "react-native";
 import Login from "./src/screens/Login/Login";
 import { ThemeProvider } from "styled-components/native";
 import theme from "./src/theme";
@@ -26,8 +26,10 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <View style={styles.container}>
-        <StatusBar style="inverted" translucent />
-        <Login />
+        <SafeAreaView>
+          <StatusBar style="inverted" translucent />
+          <Login />
+        </SafeAreaView>
       </View>
     </ThemeProvider>
   );

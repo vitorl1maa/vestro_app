@@ -1,11 +1,12 @@
 import { View, Text } from "react-native";
-import React from "react";
+import { Container } from "./styled";
+import AvatarDefault from "../../components/Avatar/AvatarDefault";
 
 const Home = () => {
   return (
-    <View>
-      <Text>Home</Text>
-    </View>
+    <Container>
+      <AvatarDefault />
+    </Container>
   );
 };
 

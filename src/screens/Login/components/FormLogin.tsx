@@ -1,11 +1,10 @@
-import theme from "../../../theme";
+import theme from "@theme/index";
 import React, { useState } from "react";
-import Button from "../../../components/Button/Button";
-import Input from "../../../components/Input/Input";
+
 import { AtSign, Eye, EyeOff } from "lucide-react-native";
 import { Image, Text, TouchableOpacity, View } from "react-native";
-import googleIcon from "../../../images/icons/flat-color-icons--google.png";
-import facebookIcon from "../../../images/icons/logos--facebook.png";
+import googleIcon from "@assets/icons/flat-color-icons--google.png";
+import facebookIcon from "@assets/icons/logos--facebook.png";
 import {
   Container,
   DetailsForm,
@@ -19,6 +18,8 @@ import {
 } from "./styled";
 import { NavigationProp, useNavigation } from "@react-navigation/native";
 import { LoginScreenNavigationProp } from "../../../@types/routes";
+import Input from "@components/Input/Input";
+import Button from "@components/Button/Button";
 
 const FormLogin = () => {
   const [showPassword, setShowPassword] = useState(false);

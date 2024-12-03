@@ -1,7 +1,7 @@
 import { View, Text } from "react-native";
 import React from "react";
 import { Avatar } from "react-native-paper";
-import avatarDefault from "../../images/avatar/avatar.jpg";
+import avatarDefault from "@assets/avatar/avatar.jpg";
 
 const AvatarDefault = () => {
   return (

@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 import { responsiveness } from "../../../utils/size-responsiveness";
-import theme from "../../../theme";
+import theme from "@theme/index";
 
 export const Container = styled.View`
   max-width: 100%;

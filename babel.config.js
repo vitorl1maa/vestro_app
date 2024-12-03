@@ -9,7 +9,7 @@ module.exports = function (api) {
           root: ["./src"],
           alias: {
             "@assets": "./src/assets",
-            "@shared-components": "./src/components",
+            "@shared-components": "./src/shared-components",
             "@routes": "./src/routes",
             "@screens": "./src/screens",
             "@storage": "./src/storage",

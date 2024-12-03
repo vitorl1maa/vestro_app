@@ -1,6 +1,5 @@
 import theme from "@theme/index";
 import React, { useState } from "react";
-
 import { AtSign, Eye, EyeOff } from "lucide-react-native";
 import { Image, Text, TouchableOpacity, View } from "react-native";
 import googleIcon from "@assets/icons/flat-color-icons--google.png";
@@ -18,8 +17,9 @@ import {
 } from "./styled";
 import { useNavigation } from "@react-navigation/native";
 import { LoginScreenNavigationProp } from "../../../@types/routes";
-import Input from "@shared-components/Input/Input";
+
 import Button from "@shared-components/Button/Button";
+import Input from "@shared-components/Input/Input";
 
 const FormLogin = () => {
   const [showPassword, setShowPassword] = useState(false);

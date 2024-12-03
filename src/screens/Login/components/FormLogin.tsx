@@ -16,10 +16,10 @@ import {
   TextDetail,
   TextRegister,
 } from "./styled";
-import { NavigationProp, useNavigation } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 import { LoginScreenNavigationProp } from "../../../@types/routes";
-import Input from "@components/Input/Input";
-import Button from "@components/Button/Button";
+import Input from "@shared-components/Input/Input";
+import Button from "@shared-components/Button/Button";
 
 const FormLogin = () => {
   const [showPassword, setShowPassword] = useState(false);

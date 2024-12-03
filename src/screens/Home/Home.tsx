@@ -1,11 +1,10 @@
-import { View, Text } from "react-native";
 import { Container } from "./styled";
-import AvatarDefault from "@components/Avatar/AvatarDefault";
+import UserBar from "./components/UserBar/UserBar";
 
 const Home = () => {
   return (
     <Container>
-      <AvatarDefault />
+      <UserBar />
     </Container>
   );
 };

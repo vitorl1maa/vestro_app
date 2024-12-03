@@ -35,6 +35,8 @@ export const TextDetail = styled.Text`
   color: ${theme.colors.secondary};
   position: absolute;
   top: -10px;
+  left: 175px;
+  
 `;
 
 export const LoginButtonsContainer = styled.View`

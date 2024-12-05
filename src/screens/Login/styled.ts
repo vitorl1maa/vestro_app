@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 import theme from "../../theme";
-import { fontSize } from "../../utils/font-size-responsiveness";
+import { fontSize } from "../../utils/styles/font-size-responsiveness";
 
 export const Container = styled.View`
   min-width: 100%;

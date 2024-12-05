@@ -1,5 +1,5 @@
 import theme from "@theme/index";
-import { fontSize } from "@utils/font-size-responsiveness";
+import { fontSize } from "@utils/styles/font-size-responsiveness";
 import styled from "styled-components/native";
 
 export const UserDetails = styled.View`

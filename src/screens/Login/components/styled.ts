@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-import { responsiveness } from "../../../utils/size-responsiveness";
+import { responsiveness } from "../../../utils/styles/size-responsiveness";
 import theme from "@theme/index";
 
 export const Container = styled.View`

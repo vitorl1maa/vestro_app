@@ -5,6 +5,7 @@ import { Image, Text, TouchableOpacity, View } from "react-native";
 import googleIcon from "@assets/icons/flat-color-icons--google.png";
 import facebookIcon from "@assets/icons/logos--facebook.png";
 import {
+  BunttonSocialMedia,
   Container,
   DetailsForm,
   FacebookIcon,
@@ -12,6 +13,7 @@ import {
   GoogleIcon,
   LineDetail,
   LoginButtonsContainer,
+  TextButtonLogin,
   TextDetail,
   TextRegister,
 } from "./styled";
@@ -64,27 +66,19 @@ const FormLogin = () => {
 
       <LoginButtonsContainer>
         <View>
-          <TouchableOpacity>
+          <BunttonSocialMedia>
             <GoogleIcon source={googleIcon} resizeMode="contain" />
-            <Button
-              width="35%"
-              text=""
-              color={theme.colors.gray}
-              textColor={theme.colors.secondary}
-            />
-          </TouchableOpacity>
+            <TextButtonLogin>Continue with Google</TextButtonLogin>
+          </BunttonSocialMedia>
         </View>
 
         <View>
-          <TouchableOpacity>
-            <FacebookIcon source={facebookIcon} resizeMode="contain" />
-            <Button
-              width="35%"
-              text=""
-              color={theme.colors.gray}
-              textColor={theme.colors.secondary}
-            />
-          </TouchableOpacity>
+          <View>
+            <BunttonSocialMedia>
+              <FacebookIcon source={facebookIcon} resizeMode="contain" />
+              <TextButtonLogin>Continue with Facebook</TextButtonLogin>
+            </BunttonSocialMedia>
+          </View>
         </View>
       </LoginButtonsContainer>
 

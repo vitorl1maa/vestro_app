@@ -1,4 +1,4 @@
-package com.vitorl1maa.vestro_app
+package com.vestroapp
 
 import android.app.Application
 import android.content.res.Configuration

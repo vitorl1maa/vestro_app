@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#111111"
       },
-      "package": "com.vitorl1maa.vestro_app"
+      "package": "com.vestroapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"

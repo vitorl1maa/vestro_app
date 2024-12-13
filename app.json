@@ -19,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#111111"
-      }
+      },
+      "package": "com.vitorl1maa.vestro_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad7da5e9-9b4f-4e54-a060-544d5ea85f5d"
+      }
     }
   }
 }
